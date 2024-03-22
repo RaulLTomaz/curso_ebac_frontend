@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+header {
+    background-color: #696969;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 30px;
+}
+
+form {
+    background-color: #c0c0c0;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form input, form button {
+    padding: 8px;
+    font-size: 18px;
+}
+
+form button {
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    padding: 16px 0;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #dcdcdc;
+}
