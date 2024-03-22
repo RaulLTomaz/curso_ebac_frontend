@@ -9,11 +9,16 @@ $(document).ready(function() {
             alert("Tarefa ja adicionada")
         }  else {
             tarefas.push(nomeTarefa.toLowerCase())
-            const novoItem = $(`<li style='display: none'>${nomeTarefa}</li>`)
+            const novoItem = $(`<li style="display: none">${nomeTarefa}</li>`)
             $(novoItem).appendTo("ul")
             $(novoItem).slideDown()
         }
 
         $("#nome-tarefa").val("")
+    })
+
+    $("#lista-tarefas").on("click","li",function() {
+        $(this).css("text-decoration", "line-through")
+        
     })
 })
